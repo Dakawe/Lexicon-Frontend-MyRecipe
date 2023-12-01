@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  background-color: rgb(197, 206, 224);
+  background-image: url(img-bg.jpg);
+  background-size: cover;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  background-image: url(img-paper-texture.webp);
+  background-size: contain;
+  width: 55%;
+  min-height: 55vh;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px;
+  box-shadow: -5px -5px 45px rgb(6, 6, 6);
+  margin-inline: auto;
+  margin-block: 15%;
+  padding: 25px;
+}
+
+
+.left {
+  background-color: red;
+  margin: 5px;
+  position: relative;
+  width: 48%;
+}
+.right {
+  
+  margin: 5px;
+  position: relative;
+  width: 48%;
+  height: auto;
+  display: grid;
+  place-items: center;
+}
+
+.img-food-top {
+  width: 80%;
+  margin: 5px;
+  animation: spin-the-food 250s infinite linear;
+}
+
+@keyframes spin-the-food{
+  100%{
+    transform: rotate(360deg);
+  }
+}
