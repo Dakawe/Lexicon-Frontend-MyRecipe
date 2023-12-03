@@ -67,7 +67,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 310px;
-  animation: spin-that-beautiful-salad 100s infinite linear;
+  animation: spin-that-beautiful-salad 250s infinite linear;
 }
 
 @keyframes spin-that-beautiful-salad {
@@ -90,11 +90,11 @@ h3 {
   font-size: 28px;
   margin: 0px;
   margin-top: 15px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
   text-align: end;
   padding-right: 100px;
   text-shadow: 3px 3px 1px rgb(196, 194, 194);
-  border-bottom:6px solid rgb(173, 173, 173, 0.35);
+  border-bottom: 3px solid rgb(173, 173, 173, 0.45);
 }
 
 ul {
@@ -157,10 +157,13 @@ li {
   padding: 1em 0;
 }
 .tillagning {
-  width: 75%;
+  width: 80%;
   padding: 30px;
-  font-weight: bold;
-  background-color: rgb(134, 131, 127, 0.2);
+  font-variant-caps: normal;
+  font-family: tahoma;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-image: url(img-light-wood.webp);
   margin-top: 30px;
   border: 1px solid grey;
 }
