@@ -63,6 +63,7 @@ main {
 }
 
 .img-food-top {
+  margin-top:50px;
   align-items: center;
   justify-content: center;
   width: 310px;
