@@ -135,8 +135,10 @@ ul {
   display: flex;
   justify-content: center;
   position: relative;
-  background-color: rgb(134, 131, 127, 0.2);
-  border-block: 1px solid rgb(46, 46, 46);
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 1px solid rgb(195, 195, 195);
+  border-radius:25px;
+
 }
 
 .p-food-infobox {
