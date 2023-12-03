@@ -1,50 +1,173 @@
 body {
-  margin: 0px;
+  margin: 0;
+  width: 98vw;
+  height: 100vh;
+  overflow-x: hidden;
   background-color: rgb(197, 206, 224);
   background-image: url(img-bg.jpg);
-  background-size: cover;
+  background-size:cover;
 }
 
 main {
   background-color: rgb(255, 255, 255);
   background-image: url(img-paper-texture.webp);
-  background-size: contain;
-  width: 55%;
+  background-size: cover;
+  width: 60vw;
+  max-width: 60vw;
+  min-width: 60vw;
   min-height: 55vh;
   display: flex;
   flex-wrap: wrap;
   border-radius: 2px;
   box-shadow: -5px -5px 45px rgb(6, 6, 6);
   margin-inline: auto;
-  margin-block: 15%;
-  padding: 25px;
+  margin-top: 15%;
+  margin-bottom:50px;
+  padding: 15px;
+  overflow: hidden;
 }
 
-
+.lock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
+}
 .left {
-  background-color: red;
+  /* background-color: blue; */
   margin: 5px;
   position: relative;
-  width: 48%;
+  min-width: 45%;
+  max-width: 45%;
+  display: grid;
+  align-items: start;
+  place-items: center;
+  overflow: hidden;
 }
 .right {
-  
+  /* background-color: green; */
   margin: 5px;
   position: relative;
-  width: 48%;
+  min-width: 45%;
+  max-width: 45%;
   height: auto;
   display: grid;
-  place-items: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.left-information {
+  text-align: center;
 }
 
 .img-food-top {
-  width: 80%;
-  margin: 5px;
-  animation: spin-the-food 250s infinite linear;
+  align-items: center;
+  justify-content: center;
+  width: 310px;
+  animation: spin-that-beautiful-salad 100s infinite linear;
 }
 
-@keyframes spin-the-food{
-  100%{
+@keyframes spin-that-beautiful-salad {
+  100% {
     transform: rotate(360deg);
   }
+}
+@font-face {
+  font-family: "rubrik";
+  src: url("Playball.ttf");
+}
+@font-face {
+  font-family: "site-header";
+  src: url("grinch.otf");
+}
+
+h3 {
+  font-family: "rubrik", verdana;
+  width: 90%;
+  font-size: 33px;
+  margin: 0px;
+  margin-top: 35px;
+  text-align: end;
+  text-shadow: 3px 3px 1px rgb(196, 194, 194);
+}
+
+ul {
+  width: 80%;
+  list-style-type: "✔️ ";
+}
+
+.p-ingredient {
+  font-variant-caps: small-caps;
+  margin: 0;
+  padding: 5px;
+  padding-left: 3%;
+  background-color: white;
+  width: 90%;
+  font-family: monospace;
+  font-size: 17px;
+  border: 1px solid rgb(224, 221, 221);
+  border-radius: 7px;
+  margin-top: 3px;
+}
+
+.underrubrik {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "rubrik";
+  font-size: 20px;
+}
+.h2-food {
+  font-size: 45px;
+  text-shadow: 3px 3px 1px rgb(196, 194, 194);
+  color: rgb(0, 0, 0);
+  font-family: "rubrik", verdana;
+}
+
+.food-infobox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(134, 131, 127, 0.2);
+  border-block: 1px solid rgb(46, 46, 46);
+}
+
+.p-food-infobox {
+  padding: 20px;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.img-infobox {
+  width: 33px;
+}
+li {
+  line-height: 1.5em;
+  padding: 1em 0;
+}
+.tillagning {
+  width: 75%;
+  padding: 30px;
+  font-weight: bold;
+  background-color: rgb(134, 131, 127, 0.2);
+  margin-top: 30px;
+  border: 1px solid grey;
+}
+
+footer {
+  padding:25px;
+  background-image: url(img-paper-texture.webp);
+  box-shadow: -5px -5px 15px rgb(6, 6, 6);
+  opacity: 0.5;
+  position: relative;
+  
+  width: 100%;
+  text-align: center;
+  font-weight:bolder;
+  font-family: monospace;
 }
