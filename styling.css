@@ -116,6 +116,79 @@ ul {
   margin-top: 3px;
 }
 
+.bacon {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmknf34i7hw_PnsrdQuP4Ww1l9a3u7_BA8urbJ_F8FIA&s");
+  background-size: 100%;
+}
+.roman {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://media.gettyimages.com/id/171211829/sv/foto/perfect-green-crispy-leafy-lettuce.jpg?s=612x612&w=gi&k=20&c=ZxDdAkZPdqkRg8Ib5ZS9PXwOl-CQQVV-lkDOLMpJAs8=");
+  background-size: 100%;
+}
+.kyckling {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://gimmesomegrilling.com/wp-content/uploads/2018/04/how-to-grill-juicy-chicken-breasts-500x375.jpg");
+  background-size: 100%;
+}
+
+.parmesan {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)),
+    url("https://creativeinmykitchen.com/wp-content/uploads/2019/02/parmigiano-lectin-free-3.jpg");
+  background-size: 100%;
+}
+
+.egg {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Egg_texture_169clue.jpg/1200px-Egg_texture_169clue.jpg");
+  background-size: 100%;
+}
+.sardell {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://previews.123rf.com/images/atosan/atosan1407/atosan140700853/30138256-dried-salted-anchovies-background-texture.jpg");
+  background-size: 100%;
+}
+.vitvin {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://www.amazonasmagazine.com/wp-content/uploads/2015/10/DSC_0594_1000w.jpg");
+  background-size: 100%;
+}
+.garlic {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://img.freepik.com/premium-photo/view-garlic-texture_147491-27.jpg");
+  background-size: 100%;
+}
+.dijon {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://img.freepik.com/premium-photo/abstract-dijon-mustard-background-with-dark-light-mustard-seeds-mustard-seasoning-texture_508037-734.jpg?w=2000");
+  background-size: 100%;
+}
+.wshire {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdbIpq87LuFaOWaH8N9ffFYIEQ1P6b6X-lfUcdSI1DuQ&s");
+  background-size: 100%;
+}
+.rapsolja {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://media.istockphoto.com/id/1304044937/sv/foto/vackert-makrofoto-av-vattendroppar-i-olja-med-gul-bakgrund.jpg?s=612x612&w=0&k=20&c=KJxmKSlZmiTGJX3ygm3hu-ioPN7d8FxO1WEWVn2HAK0=");
+  background-size: 100%;
+}
+.krydda {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://granitedrc.com/wp-content/uploads/2021/02/Salt-and-Pepper-Poli1.jpg");
+  background-size: 100%;
+}
+.bread {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEdS9YyAKTXL7BDTyk5gPtEDaEzZzgEMcBE9NwoAATjQ&s");
+  background-size: 100%;
+}
+.olivolja {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8mn_3M-V35Mryl01Kdw_lTDWk-LvMCygLcDRNv2rig&s");
+  background-size: 100%;
+}
+
 .underrubrik {
   margin: 0;
   padding: 0;
@@ -124,6 +197,7 @@ ul {
   font-weight: bold;
   font-family: "rubrik";
   font-size: 20px;
+  background-image: none;
 }
 .h2-food {
   font-size: 40px;
@@ -163,7 +237,8 @@ li {
   font-family: tahoma;
   font-size: 14px;
   color: rgb(0, 0, 0);
-  background-image: url(img-light-wood.webp);
+  background-image: linear-gradient(27deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGb96v8SrNMpvcbVVgS_atLS2zZKN5OEaD_5Aj2IrUQ&s);
   margin-top: 30px;
   border: 1px solid grey;
 }
