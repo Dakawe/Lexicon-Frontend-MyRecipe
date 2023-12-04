@@ -11,7 +11,7 @@ body {
 main {
   background-color: rgb(255, 255, 255);
   background-image: url(img-paper-texture.webp);
-  background-size: cover;
+  background-size: contain;
   width: 60vw;
   max-width: 60vw;
   min-width: 60vw;
@@ -111,7 +111,7 @@ ul {
   width: 90%;
   font-family: monospace;
   font-size: 17px;
-  border: 1px solid rgb(224, 221, 221);
+  border: 1px solid grey;
   border-radius: 7px;
   margin-top: 3px;
 }
@@ -214,6 +214,9 @@ ul {
   background-color: rgb(255, 255, 255, 0.5);
   border: 1px solid rgb(195, 195, 195);
   border-radius: 25px;
+   background-image: linear-gradient(25deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGb96v8SrNMpvcbVVgS_atLS2zZKN5OEaD_5Aj2IrUQ&s");
+  background-size: 100% 100%;
 }
 
 .p-food-infobox {
@@ -238,7 +241,7 @@ li {
   font-size: 14px;
   color: rgb(0, 0, 0);
   background-image: linear-gradient(27deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)),
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGb96v8SrNMpvcbVVgS_atLS2zZKN5OEaD_5Aj2IrUQ&s);
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGb96v8SrNMpvcbVVgS_atLS2zZKN5OEaD_5Aj2IrUQ&s");
   margin-top: 30px;
   border: 1px solid grey;
 }
